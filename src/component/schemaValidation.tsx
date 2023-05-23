@@ -8,8 +8,8 @@ const SchemaValidation = () => {
       name: "",
       email: "",
       password: "",
-      age: 0,
-      date: new Date(),
+      age: null,
+      date: null,
       fileUpload: null,
       selectProgramming: "",
       gender: "",
@@ -151,7 +151,7 @@ const SchemaValidation = () => {
                 Please Enter Date
               </label>
               {formIk.touched.date && formIk.errors && formIk.errors.date ? (
-                <div>"date is required"</div>
+                <div className="text-red-600">{formIk.errors.date}</div>
               ) : null}
             </div>
             <div className="relative mb-6">
