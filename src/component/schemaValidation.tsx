@@ -242,7 +242,7 @@ const SchemaValidation = () => {
               
              
             </div>
-            <div className="flex justify-around">
+            <div className="flex justify-around mb-5">
               <div>
                 <input
                   type="checkbox"
